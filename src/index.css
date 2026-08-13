@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Slide background ─── */
+.slide-bg {
+  background:
+    radial-gradient(ellipse at 15% 25%, rgba(147, 197, 253, 0.22) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 75%, rgba(196, 181, 253, 0.14) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 0%,  rgba(219, 234, 254, 0.30) 0%, transparent 60%),
+    #f0f4ff;
+}
+
+/* ─── Glass card ─── */
+.glass {
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(148, 163, 220, 0.28);
+  box-shadow: 0 4px 24px rgba(30, 64, 175, 0.08), inset 0 1px 0 rgba(255,255,255,0.9);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid rgba(148, 163, 220, 0.32);
+  box-shadow: 0 8px 40px rgba(30, 64, 175, 0.10), inset 0 1px 0 rgba(255,255,255,1);
+}
+
+.glass-blue {
+  background: rgba(30, 64, 175, 0.07);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(30, 64, 175, 0.18);
+  box-shadow: 0 4px 24px rgba(30, 64, 175, 0.10);
+}
+
+.glass-engine {
+  background: rgba(255, 255, 255, 0.50);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(99, 120, 200, 0.30);
+  box-shadow:
+    0 12px 48px rgba(30, 64, 175, 0.12),
+    0 2px 8px rgba(30, 64, 175, 0.06),
+    inset 0 1px 0 rgba(255,255,255,0.95);
+}
+
+/* ─── Glow effects ─── */
+.glow-blue {
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.25), 0 8px 32px rgba(30, 64, 175, 0.12);
+}
+
+/* ─── Keyframes ─── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideRight {
+  from { opacity: 0; transform: translateX(20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes particleMoveX {
+  0%   { transform: translateX(-8px); opacity: 0; }
+  15%  { opacity: 0.7; }
+  85%  { opacity: 0.7; }
+  100% { transform: translateX(calc(100% + 8px)); opacity: 0; }
+}
+
+@keyframes particleMoveY {
+  0%   { transform: translateY(-6px); opacity: 0; }
+  15%  { opacity: 0.6; }
+  85%  { opacity: 0.6; }
+  100% { transform: translateY(calc(100% + 6px)); opacity: 0; }
+}
+
+@keyframes orbitX {
+  0%   { left: 5%;  opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { left: 95%; opacity: 0; }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50%       { opacity: 1;   transform: scale(1.4); }
+}
+
+@keyframes notificationDrop {
+  from { opacity: 0; transform: translateY(-16px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-6px); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}

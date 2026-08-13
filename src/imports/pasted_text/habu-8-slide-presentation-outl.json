@@ -1,0 +1,410 @@
+Yes, exactly. I understand the distinction now.
+
+The **first 6 slides should be a normal professional client presentation** — diagrams, architecture, business flow, and animation. They should **not look like mobile app screens**.
+
+Only **Slides 7 and 8** should transition into the actual mobile product and demonstrate the CEO journey.
+
+Here is the corrected 8-slide structure:
+
+---
+
+# Slide 1 — Habu Executive Intelligence
+
+### **Turning Enterprise Data into Executive Action**
+
+Keep this as a clean **hero presentation slide**.
+
+Central architecture:
+
+**Odoo ERP**
+*Enterprise Business Data*
+
+↓ animated data flow
+
+### **VinBytes Intelligence Engine**
+
+*API & Integration → Workflow Engine → LLM*
+
+↓ animated intelligence flow
+
+**Habu CEO Experience**
+
+At the bottom:
+
+> **From business data to the decisions that matter.**
+
+### Animation
+
+Odoo data points flow into the Intelligence Engine → the engine processes them → one highlighted insight comes out.
+
+---
+
+# Slide 2 — The Business Challenge
+
+### **The CEO Doesn't Need More Data. They Need the Right Information.**
+
+Normal presentation layout.
+
+On the left, show Odoo business areas:
+
+* Sales
+* Finance
+* CRM
+* Inventory
+* HR
+* Operations
+* Projects
+
+All producing large amounts of information.
+
+On the right:
+
+### **CEO**
+
+Instead of showing a mobile screen, show a simple executive silhouette / abstract CEO visualization surrounded by:
+
+`Too much data`
+`Too many reports`
+`Too many systems`
+`Too much manual monitoring`
+
+Then one highlighted statement:
+
+> **What actually requires my attention today?**
+
+### Animation
+
+Data streams continuously appear → become increasingly dense → then the VinBytes Intelligence Engine appears and filters the noise.
+
+---
+
+# Slide 3 — VinBytes Intelligence Engine
+
+### **The Intelligence Layer Behind Habu**
+
+This is the **main architecture slide**.
+
+Make the middle engine large and visually impressive.
+
+```text
+                         VINBYTES INTELLIGENCE ENGINE
+
+      ┌──────────────────┬──────────────────┬──────────────────┐
+      │                  │                  │                  │
+      │ API &            │ Workflow         │ LLM              │
+      │ Integration      │ Engine           │ Intelligence     │
+      │                  │                  │                  │
+      │ CONNECT          │ ORCHESTRATE      │ UNDERSTAND       │
+      │                  │                  │                  │
+      └──────────────────┴──────────────────┴──────────────────┘
+```
+
+### API & Integration
+
+Connects to:
+
+**Odoo → APIs → Business Data**
+
+### Workflow Engine
+
+Controls:
+
+**Triggers → Tool Calls → Conditions → Actions**
+
+### LLM
+
+Transforms processed information into:
+
+**Context → Summary → Insight → Recommendation**
+
+Outside the engine:
+
+**Odoo ERP** → **VinBytes Intelligence Engine** → **Executive Experience**
+
+### Animation
+
+This should be one continuous animation:
+
+**Odoo data pulse**
+
+→ Integration lights up
+
+→ Workflow nodes execute sequentially
+
+→ LLM activates
+
+→ final insight exits the engine.
+
+---
+
+# Slide 4 — How the Workflow Engine Works
+
+### **From a Business Event to an Executive Decision**
+
+This is a **normal workflow diagram**, not a UI.
+
+Example:
+
+```text
+Business Event
+Revenue drops below target
+        ↓
+Workflow Trigger
+        ↓
+Call Sales API
+        ↓
+Retrieve Opportunities
+        ↓
+Check Business Condition
+Revenue risk > ₹50L?
+        ↓
+       YES
+        ↓
+Send relevant data to LLM
+        ↓
+Generate Executive Insight
+        ↓
+CEO Attention Required
+```
+
+Beside the diagram, explain simply:
+
+> **The workflow engine acts like a set of instructions. It determines what information to retrieve, what conditions to check and what should happen next.**
+
+### Animation
+
+Each node activates sequentially.
+
+This helps non-technical people understand **what “workflow” means**.
+
+---
+
+# Slide 5 — From Raw Data to Intelligence
+
+### **The AI Doesn't Replace the ERP. It Makes the Data Easier to Understand.**
+
+Use a left-to-right transformation.
+
+### Odoo Data
+
+Show simplified structured information:
+
+**Revenue:** ₹2.1 Cr
+**Target:** ₹2.5 Cr
+**Delayed Deals:** 8
+**High-value Deals:** 3
+**Risk Exposure:** ₹72L
+
+↓
+
+### VinBytes Intelligence Engine
+
+**Integration**
+Retrieves relevant data
+
+↓
+
+**Workflow**
+Processes business rules
+
+↓
+
+**LLM**
+Understands the processed context
+
+↓
+
+### Executive Intelligence
+
+> 🔴 **Revenue Risk Detected**
+>
+> ₹72L potential revenue is at risk across 3 high-value opportunities.
+>
+> **Recommended:** Review the three opportunities with the sales team.
+
+This slide explains the **value of AI** without needing to explain technical AI concepts.
+
+---
+
+# Slide 6 — Intelligent Executive Communication
+
+### **Only What Matters Reaches the CEO**
+
+This is still a **normal presentation slide**, not a mobile UI.
+
+Show multiple business events entering the engine:
+
+```text
+Sales Performance ───┐
+                     │
+Overdue Invoices ────┤
+                     │
+Inventory Risk ──────┤
+                     ├──→ VinBytes Intelligence Engine
+Project Delay ───────┤
+                     │
+Customer Risk ───────┘
+                              ↓
+                     PRIORITIZE & UNDERSTAND
+                              ↓
+                  ┌─────────────────────────┐
+                  │  CEO ATTENTION REQUIRED  │
+                  └─────────────────────────┘
+```
+
+Then show three levels:
+
+🔴 **Critical**
+Requires immediate attention
+
+🟠 **Important**
+Requires review
+
+🟢 **Informational**
+No action required
+
+Key message:
+
+> **Habu doesn't overwhelm the CEO with every event. It surfaces the events that deserve attention.**
+
+### Animation
+
+Multiple events flow toward the engine → engine processes them → only 2–3 important events emerge.
+
+---
+
+# Slide 7 — Habu Mobile App
+
+### **The CEO Experience**
+
+**This is where we finally introduce the actual mobile application.**
+
+Now use a large phone mockup.
+
+Show the actual Habu home screen:
+
+**Good Morning, CEO**
+
+### Executive Overview
+
+**2 Critical** | **4 Need Review** | **8 Healthy**
+
+### Requires Attention
+
+🔴 **Revenue Risk**
+₹72L potential revenue at risk.
+
+🟠 **Overdue Receivables**
+₹42L overdue across 8 customers.
+
+🟢 **Operations**
+All critical inventory levels stable.
+
+Bottom navigation:
+
+**Home | Insights | AI Assistant | Notifications**
+
+### Animation
+
+Normal slide initially.
+
+Then:
+
+**New event → notification appears → CEO opens the alert.**
+
+This is the first time the audience sees the actual product.
+
+---
+
+# Slide 8 — CEO Mobile Journey
+
+### **From Attention → Understanding → Action**
+
+This is the final slide and should show the **actual mobile flow**.
+
+Use 4 phone screens horizontally.
+
+### 01 — Attention
+
+🔴 **Revenue Risk**
+
+> ₹72L potential revenue at risk.
+
+**View Insight**
+
+↓
+
+### 02 — Understand
+
+**Why does this matter?**
+
+> 3 high-value opportunities are delayed and represent 64% of the potential risk.
+
+**Impact:** ₹72L
+
+↓
+
+### 03 — AI Assistance
+
+CEO asks:
+
+> **Which opportunity is the biggest risk?**
+
+Habu AI:
+
+> **ABC Corp — ₹28L**
+>
+> Expected closure: Aug 28
+> Status: Delayed
+
+↓
+
+### 04 — Action
+
+**Recommended Actions**
+
+**Review Opportunity**
+
+**Contact Sales Manager**
+
+**Schedule Follow-up**
+
+---
+
+# Final presentation story
+
+The 8 slides should therefore feel like this:
+
+### **01 — WHY**
+
+Why CEOs need a better way to consume business information.
+
+### **02 — PROBLEM**
+
+Odoo contains enormous amounts of business data.
+
+### **03 — ENGINE**
+
+How **VinBytes Intelligence Engine** connects everything.
+
+### **04 — WORKFLOW**
+
+How the workflow engine decides what information and actions are required.
+
+### **05 — AI**
+
+How the LLM converts processed business information into understandable intelligence.
+
+### **06 — OUTCOME**
+
+How the engine decides what deserves CEO attention.
+
+### **07 — PRODUCT**
+
+What the Habu mobile application actually looks like.
+
+### **08 — EXPERIENCE**
+
+How the CEO goes from **notification → insight → AI conversation → action**.
+
+This separation is much cleaner: **Slides 1–6 sell the architecture and intelligence behind the product; Slides 7–8 sell the actual Habu experience.**
